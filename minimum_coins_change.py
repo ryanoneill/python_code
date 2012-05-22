@@ -3,6 +3,9 @@
 import sys
 
 def minimum_coins_change(denominations, value):
+	# Find the minimum number of coins necessary to 
+	# provide the exact change. If exact change is
+	# not possible, return None
 	result = None
 
 	if value == 0:
